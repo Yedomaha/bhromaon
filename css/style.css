@@ -199,13 +199,13 @@ header{
 
 .image1{
 	position: absolute;
-	left: 635px;
+	left: 59%;
 	top: -80px;
 }
 
 .image2{
 	position: absolute;
-	left: 760px;
+	left: 70%;
 	top: 145px;
 }
 
@@ -256,6 +256,12 @@ header{
 .content_spain{
 	background-color: rgba(41,36,33,0.7);
 	width: 49%;
+	padding: 50px 25px;
+}
+
+.content_spain2{
+	background-color: rgba(41,36,33,0.7);
+	width: 59%;
 	padding: 50px 25px;
 }
 
