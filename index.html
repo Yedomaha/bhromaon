@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>YedomahaTest</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="header_caption">Bhromaon</h1>
+			<h3 class="header_text">Safe Travel Anywhere</h3>
+			<form class="header_searchspace">
+			<input class="header_search" type="search" placeholder="Search Your Travel Destination">
+			<input class="header_button" type="button" value="Search">
+			</form>
+			<div class="qqq"><a class="header_scrolldown" href="#footer">Scroll down<br><i class="fa fa-chevron-down" aria-hidden="true"></i></a></div>
+		</div>
+			<div class="header_menu">
+				<div class="container">
+						<a class="header_menu-logo">Bhromaon</a>
+						<ul class="header_menu-menu">
+							<li class="header_menu-menu-items"><a class="header_menu-menu-items" href="">who we are</a></li>
+							<li class="header_menu-menu-items"><a class="header_menu-menu-items" href="">what we do</a></li>
+							<li class="header_menu-menu-items"><a class="header_menu-menu-items" href="">travel with us</a></li>
+							<li class="header_menu-menu-items"><a class="header_menu-menu-items" href="">contact us</a></li>
+						</ul>
+				</div>
+			</div>
+	</header>
+	<section class="choose">
+		<div class="container container-relative">
+			<div class="content">
+				<h2 class="content_caption">Why Choose Us</h2>
+				<p class="content_text">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+				<p class="content_text text_margin">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
+				<button class="content_button">Explore Places </button>
+			</div>
+			<img class="image1" src="img/image1.png" alt="image1">
+			<img class="image2" src="img/image2.png" alt="image2">
+		</div>
+	</section>
+	<section class="flex">
+		<div class="flex-container">
+			<div class="flex1"> 
+				<img class="flex-img" src="img/magnifier2.svg" alt="magnifier">
+				<p class="flex-text">Search Places</p>
+			</div>
+			<div class="flex1 flex1_margin"> 
+				<img class="flex-img" src="img/golly.svg" alt="golly">
+				<p class="flex-text">Select Places</p>
+			</div>
+			<div class="flex1">
+				<img class="flex-img" src="img/like.svg" alt="like">
+				<p class="flex-text">Book & Enjoy</p>
+			</div>
+		</div>
+	</section>	
+	<section class="spain1">
+		<div class="container">
+			<div class="content content_spain">
+				<p class="spain_text">Spain</p>
+				<h2 class="content_caption">Grand Spain Madrid</h2>
+				<p class="content_text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+				<button class="content_button">Book Now</button>
+			</div>
+		</div>
+	</section>
+	<section class="spain2">
+		<div class="container">
+			<div class="content content_spain">
+				<p class="spain_text">Spain</p>
+				<h2 class="content_caption">Grand Spain Madrid</h2>
+				<p class="content_text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+				<button class="content_button">Book Now</button>
+			</div>
+		</div>
+	</section>
+	<section class="testimonial">
+		<div class="container">
+			<h2 class="testimonial_caption">What Our  Tourist Say</h2>
+			<div class="testimonial_content">
+				<img class="testimonial_img testimonial-disp" src="img/testimonial_img.png" alt="testimonial_img">
+				<div class="testimonial_text testimonial-disp">
+					<h3 class="testimonial_text-caption">Sam Sumon</h3>
+					<p class="testimonial_text-text"><i class="fa fa-quote-left kavichki" aria-hidden="true"></i>
+					But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<h1 class="footer_caption">Bhromaon</h1>
+		<p class="footer_text">Safe Travel Anywhere</p>
+		<ul class="footer_ul">
+			<li class="footer_social"><a class="footer_link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+			</a></li>
+			<li class="footer_social"><a class="footer_link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+			</a></li>
+			<li class="footer_social"><a class="footer_link" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</a></li>
+			<li class="footer_social"><a class="footer_link" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i>
+			</a></li>
+			<li class="footer_social"><a class="footer_link" href="#"><i class="social_size fa fa-youtube" aria-hidden="true"></i>
+			</a></li>
+		</ul>
+	</footer>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+ $(document).ready(function(){
+    $(".qqq").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+</body>
+</html>
