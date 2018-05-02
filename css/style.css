@@ -201,12 +201,14 @@ header{
 	position: absolute;
 	left: 59%;
 	top: -80px;
+	width: 29%;
 }
 
 .image2{
 	position: absolute;
 	left: 70%;
 	top: 145px;
+	width: 29%;
 }
 
 /*SECTION FLEX*/
@@ -261,7 +263,7 @@ header{
 
 .content_spain2{
 	background-color: rgba(41,36,33,0.7);
-	width: 59%;
+	width: 90%;
 	padding: 50px 25px;
 }
 
