@@ -11,7 +11,6 @@
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
-transition: 0.3s;
 font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -82,6 +81,7 @@ header{
 
 .header_button:hover{
 	opacity: 0.6;
+	transition: 0.3s;
 }
 
 .header_scrolldown{
@@ -97,6 +97,7 @@ header{
 
 .header_scrolldown:hover{
 	color: #4f6be8;
+	transition: 0.3s;
 }
 
 .header_menu{
@@ -121,7 +122,7 @@ header{
 	list-style: none;
 	display: inline-block;
 	width: 48.2%;
-	margin-left: 38.1%;
+	float: right;
 }
 
 .header_menu-menu-items{
@@ -131,13 +132,14 @@ header{
 	font-size: 14px;
 	color: #FFF;
 	text-transform: uppercase;
-	margin-right: 40px;
+	margin-right: 5%;
 	letter-spacing: normal;
 	text-decoration: none;
 }
 
 .header_menu-menu-items:hover{
 	color: #000;
+	transition: 0.3s;
 }
 
 .header_menu-menu-items:last-child{
@@ -195,6 +197,7 @@ header{
 .content_button:hover{
 	background: #2649E0;
 	transition: none;
+	transition: 0.3s;
 }
 
 .image1{
